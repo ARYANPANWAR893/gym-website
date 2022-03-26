@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+body{
+    font-family: 'Bakbak One', cursive;
+}
+.top{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.social{
+    cursor: pointer;
+    margin: 0px 10px;
+    width: 20px;
+    filter: invert(1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(201, 201, 201);
+    flex-wrap: wrap;
+}
+.logo{
+    font-size: 24px;
+    margin: 20px;
+}
+.links{
+    display: flex;
+}
+.links > p{
+    margin: 10px;
+}
+.links > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
